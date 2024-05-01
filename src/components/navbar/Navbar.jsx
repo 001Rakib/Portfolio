@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="max-w-screen-xl mx-auto">
       <div className="flex justify-between py-4 px-5">
-        <div className="flex list-none gap-5 font-roboto-condense ">
+        <div className="flex list-none gap-16 font-roboto-condense ">
           <NavLink className={"hover:text-cyan-600"}>
             <li>Home</li>
           </NavLink>
