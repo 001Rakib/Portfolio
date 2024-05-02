@@ -1,4 +1,5 @@
 import Carosel from "../../components/HomePhoto/Carosel";
+import SkiiledTech from "../../components/Skills/SkiiledTech";
 import PersonalDetails from "../../components/about/PersonalDetails";
 import Navbar from "../../components/navbar/Navbar";
 
@@ -10,6 +11,7 @@ const Home = () => {
         <Carosel></Carosel>
       </div>
       <PersonalDetails></PersonalDetails>
+      <SkiiledTech></SkiiledTech>
     </div>
   );
 };
