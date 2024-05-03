@@ -10,7 +10,19 @@ const Carosel = () => {
         <h1 className="text-gray-500 ml-36 text-xl">Hi, I am Rakib Hasan</h1>
         <div>
           <h1 className="text-6xl">
-            I am a <Typewriter words={["Frontend Web"]} loop />
+            I am a{" "}
+            <mark
+              style={{
+                backgroundImage:
+                  "linear-gradient(120deg, rgba(255, 200, 53, 0.8) 0, rgba(255, 200, 53, 0.8) 100%)",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "0 80%",
+                backgroundSize: "100% 0.25em",
+                backgroundColor: "transparent",
+              }}
+            >
+              <Typewriter words={["Frontend Web"]} loop />
+            </mark>
           </h1>
         </div>
         <h1 className="text-6xl ml-32">Developer</h1>

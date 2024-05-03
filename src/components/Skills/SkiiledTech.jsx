@@ -9,6 +9,8 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
+import { SiVite } from "react-icons/si";
+import { TbBrandBootstrap } from "react-icons/tb";
 
 const SkiiledTech = () => {
   const skills = [
@@ -38,6 +40,16 @@ const SkiiledTech = () => {
       experience: "1 Year",
     },
     {
+      skill: "Bootstrap",
+      icon: <TbBrandBootstrap className="text-purple-800"></TbBrandBootstrap>,
+      experience: "1 Year",
+    },
+    {
+      skill: "Vite",
+      icon: <SiVite className="text-purple-700"></SiVite>,
+      experience: "1 Year",
+    },
+    {
       skill: "Firebase",
       icon: <IoLogoFirebase className="text-yellow-400"></IoLogoFirebase>,
       experience: "1 Year",
@@ -61,8 +73,11 @@ const SkiiledTech = () => {
 
   return (
     <div className="max-w-screen-xl mx-auto my-10">
-      <h1 className="text-center text-4xl font-bold font-roboto-condense">
-        Technology I am Skilled With
+      <h1 className="text-center text-xl font-bold font-roboto-condense my-4">
+        <span className="text-green-500 bg-green-100 px-4 py-2 rounded-md">
+          {" "}
+          SKILLS
+        </span>
       </h1>
       <div className="grid grid-cols-4 gap-4">
         {skills.map((skill) => (
