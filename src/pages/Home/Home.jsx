@@ -2,6 +2,7 @@ import Carosel from "../../components/HomePhoto/Carosel";
 import SkiiledTech from "../../components/Skills/SkiiledTech";
 import PersonalDetails from "../../components/about/PersonalDetails";
 import Navbar from "../../components/navbar/Navbar";
+import Projects from "../../components/projectShowCase/Projects";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       </div>
       <PersonalDetails></PersonalDetails>
       <SkiiledTech></SkiiledTech>
+      <Projects></Projects>
     </div>
   );
 };

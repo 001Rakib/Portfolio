@@ -11,6 +11,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiVite } from "react-icons/si";
 import { TbBrandBootstrap } from "react-icons/tb";
+import SectionHeader from "../../utils/sectionHeader/SectionHeader";
 
 const SkiiledTech = () => {
   const skills = [
@@ -50,7 +51,7 @@ const SkiiledTech = () => {
       experience: "1 Year",
     },
     {
-      skill: "Firebase",
+      skill: "Firebase Auth",
       icon: <IoLogoFirebase className="text-yellow-400"></IoLogoFirebase>,
       experience: "1 Year",
     },
@@ -73,12 +74,7 @@ const SkiiledTech = () => {
 
   return (
     <div className="max-w-screen-xl mx-auto my-10">
-      <h1 className="text-center text-xl font-bold font-roboto-condense my-4">
-        <span className="text-green-500 bg-green-100 px-4 py-2 rounded-md">
-          {" "}
-          SKILLS
-        </span>
-      </h1>
+      <SectionHeader sectionTitle={"SKILLS"}></SectionHeader>
       <div className="grid grid-cols-4 gap-4">
         {skills.map((skill) => (
           <SkillCard
