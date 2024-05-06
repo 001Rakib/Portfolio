@@ -78,6 +78,7 @@ const SkiiledTech = () => {
       <div className="grid grid-cols-4 gap-4">
         {skills.map((skill) => (
           <SkillCard
+            key={skill.skill}
             icon={skill.icon}
             title={skill.skill}
             experience={skill.experience}
