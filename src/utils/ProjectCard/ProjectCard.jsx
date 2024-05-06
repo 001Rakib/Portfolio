@@ -8,7 +8,6 @@ import {
   Typography,
 } from "@mui/material";
 import { FaGithub } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import TechBadge from "../badge/TechBadge";
 
 const ProjectCard = ({
@@ -35,26 +34,30 @@ const ProjectCard = ({
             </span>
           </Typography>
           <div className="flex justify-center items-center gap-4 my-2">
-            <Link
-              to={gitHubLink}
+            <a
+              href={gitHubLink}
+              target="_blank"
+              rel="noopener noreferrer"
               className="border border-black px-2 py-1 rounded-md"
             >
               <FaGithub className="text-4xl"></FaGithub>
-            </Link>
-            <Link
-              to={liveLink}
+            </a>
+            <a
+              href={liveLink}
+              target="_blank"
+              rel="noopener noreferrer"
               className="border border-black px-2 py-1 rounded-md"
             >
               <span className="font-semibold font-roboto-condense">
                 Live Link
               </span>
-            </Link>
+            </a>
           </div>
           <Divider className="font-semibold">
             <Chip label="Technology" size="medium" />
           </Divider>
           <div>
-            <span className="flex flex-wrap gap-2 justify-center">
+            <span className="flex flex-wrap gap-2 justify-center my-2">
               {techUsed.map((tech) => (
                 <TechBadge key={tech} technology={tech}></TechBadge>
               ))}
