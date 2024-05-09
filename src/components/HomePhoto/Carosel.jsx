@@ -1,10 +1,16 @@
-import Image from "../../assets/PXL_20240213_064333141.PORTRAIT-removebg-preview.png";
+// import Image from "../../assets/PXL_20240213_064333141.PORTRAIT-removebg-preview.png";
+import { Player } from "@lottiefiles/react-lottie-player";
 import { Typewriter } from "react-simple-typewriter";
 const Carosel = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-10 flex">
+    <div className="max-w-screen-xl mx-auto px-10 flex gap-10">
       <div>
-        <img className="" src={Image} alt="" />
+        <Player
+          autoplay
+          loop
+          src="https://lottie.host/e6d3deca-fbb4-4c0e-bf1d-ab079d02527c/RGvsXhHJuD.json"
+          style={{ height: "500px", width: "500px" }}
+        ></Player>
       </div>
       <div className="font-roboto-condense mt-[15%] pl-8">
         <h1 className="text-gray-500 ml-36 text-xl">Hi, I am Rakib Hasan</h1>
