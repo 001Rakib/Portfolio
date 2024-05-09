@@ -1,4 +1,5 @@
 import Carosel from "../../components/HomePhoto/Carosel";
+import Services from "../../components/Services/Services";
 import SkiiledTech from "../../components/Skills/SkiiledTech";
 import PersonalDetails from "../../components/about/PersonalDetails";
 import Navbar from "../../components/navbar/Navbar";
@@ -13,6 +14,7 @@ const Home = () => {
       </div>
       <PersonalDetails></PersonalDetails>
       <SkiiledTech></SkiiledTech>
+      <Services></Services>
       <Projects></Projects>
     </div>
   );
