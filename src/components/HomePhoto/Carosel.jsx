@@ -1,4 +1,3 @@
-// import Image from "../../assets/PXL_20240213_064333141.PORTRAIT-removebg-preview.png";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { Typewriter } from "react-simple-typewriter";
 const Carosel = () => {
@@ -8,7 +7,7 @@ const Carosel = () => {
         <Player
           autoplay
           loop
-          src="https://lottie.host/e6d3deca-fbb4-4c0e-bf1d-ab079d02527c/RGvsXhHJuD.json"
+          src="https://lottie.host/80361743-91a8-4598-8ca8-64270ee384b9/WQJ4QzyR7n.json"
           style={{ height: "500px", width: "500px" }}
         ></Player>
       </div>

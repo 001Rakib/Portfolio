@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import "./serviceCard.css";
+import { IoIosArrowDroprightCircle } from "react-icons/io";
 const ServiceCard = ({ cardTitle, description }) => {
   return (
     <>
@@ -13,13 +13,7 @@ const ServiceCard = ({ cardTitle, description }) => {
           <ul>
             {description.map((item) => (
               <li key={item} className="flex mb-4 items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  className="size-10 fill-current text-gray-800"
-                >
-                  <path d="M7.293 13.293l-3-3a1 1 0 011.414-1.414L8 12.586l8.293-8.293a1 1 0 111.414 1.414l-9 9a1 1 0 01-1.414 0z"></path>
-                </svg>
+                <IoIosArrowDroprightCircle className="text-3xl"></IoIosArrowDroprightCircle>
                 <span className="ml-2 text-gray-800"> {item} </span>
               </li>
             ))}

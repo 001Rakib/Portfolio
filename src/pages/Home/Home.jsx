@@ -1,3 +1,4 @@
+import Contact from "../../components/Contact/Contact";
 import Carosel from "../../components/HomePhoto/Carosel";
 import Services from "../../components/Services/Services";
 import SkiiledTech from "../../components/Skills/SkiiledTech";
@@ -16,6 +17,7 @@ const Home = () => {
       <SkiiledTech></SkiiledTech>
       <Services></Services>
       <Projects></Projects>
+      <Contact></Contact>
     </div>
   );
 };

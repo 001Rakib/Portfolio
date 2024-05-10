@@ -20,7 +20,7 @@ const Navbar = () => {
           <NavLink className={"hover:text-cyan-600"}>
             <li>Project</li>
           </NavLink>
-          <NavLink className={"hover:text-cyan-600"}>
+          <NavLink to={"/contact"} className={"hover:text-cyan-600"}>
             <li>Contact</li>
           </NavLink>
         </div>
